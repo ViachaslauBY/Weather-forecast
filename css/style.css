@@ -1,0 +1,67 @@
+@font-face {
+  font-family: 'yahoocbold';
+  src: url('../fonts/yahooc-bold_2-webfont.woff2') format('woff2'),
+    url('../fonts/yahooc-bold_2-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 40px;
+  max-width: 1200px;
+}
+
+.header {
+  padding: 20px 0;
+  background: rgb(141, 235, 255);
+  background: linear-gradient(0deg, rgba(141, 235, 255, 1) 0%, rgba(108, 172, 255, 1) 100%);
+}
+
+.header__wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header__info {
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+}
+.header__title {
+  font-family: 'yahoocbold';
+  font-size: 25px;
+  color: #2c0ee8;
+}
+
+.header__logo {
+  margin-right: 30px;
+  width: 120px;
+}
+
+.header__form {
+  display: flex;
+  justify-content: space-between;
+  width: 450px;
+}
+
+.form__input {
+  flex-grow: 1;
+  padding: 5px 10px;
+  border: 1px solid #6cacff;
+  border-radius: 5px 0 0 5px;
+  background-color: transparent;
+}
+
+.form__button {
+  padding: 15px 10px;
+  border-radius: 0 5px 5px 0;
+  background-color: brown;
+}

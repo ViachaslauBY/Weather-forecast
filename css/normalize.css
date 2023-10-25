@@ -201,6 +201,13 @@ button,
   -webkit-appearance: button;
 }
 
+button {
+  padding: 0;
+  border: none;
+  color: inherit;
+  background-color: transparent;
+  cursor: pointer;
+}
 /**
  * Remove the inner border and padding in Firefox.
  */
